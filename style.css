@@ -23,6 +23,7 @@ nav{
     display: flex;
     justify-content: center;
     gap: 30px;
+    align-items: center;
 }
 
 nav a{
@@ -90,4 +91,44 @@ footer p{
 
 span{
     color: #0f3661;
+}
+
+#switch{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dark{
+    background-color: #000000;
+    color: white;
+}
+
+.dark h1{
+    color: white;
+}
+
+.dark span{
+    color: #0a52ee;
+}
+
+.dark p{
+    color: #4a90d9;
+}
+
+.dark header{
+    background-color: #4a90d9;
+}
+
+.dark footer p{
+    color: white;
+}
+
+.dark .github{
+    color: white;
 }
