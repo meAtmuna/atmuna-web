@@ -91,7 +91,7 @@ footer p{
     padding-top: 12px;
     font-size: 18px;
     color: white;
-    border-top: 2px solid palevioletred;
+    /* border-top: 2px solid palevioletred; */
 }
 
 #about, #projects{
@@ -124,6 +124,37 @@ h3{
     color: white;
 }
 
+.logo{
+    height: 30px;
+}
+
+.skills-box{
+    display: flex;
+    margin-top: 50px;
+}
+
+.left{
+    border-right: 3px solid palevioletred;
+    padding-right: 80px;
+}
+
+.left p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.right{
+    padding-left: 20px;
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    gap: 515px;
+    padding-left: 550px;
+    border-top: 2px solid palevioletred;
+}
 #switch{
     position: absolute;
     right: 60px;
