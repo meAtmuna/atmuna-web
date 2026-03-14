@@ -117,6 +117,13 @@ span{
     font-size: 26px;
 }
 
+h3{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    color: white;
+}
+
 #switch{
     position: absolute;
     right: 60px;
